@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .message-box {
+            background-color: gray;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 3px solid black;
+            border-radius: 5px;
+        }
+
+        .comment-section {
+            background-color: #ffffff;
+            padding: 20px;
+            border: 3px solid black;
+            border-radius: 5px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .comment-section h2 {
+            margin-top: 0;
+        }
+
+        .comment-input {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .submit-button {
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .submit-button:hover {
+            background-color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>What's Next?</h1>
+    <div class="message-box">
+        <p>Well for the near future I plan to make so much more projects since I simply have fun when I make these. I also look forward to improving my previous mistakes so that I can make them better. That is all. Please do look forward to my future projects.</p>
+    </div>
+
+    <div class="comment-section">
+        <h2>Comments</h2>
+    
+        <input type="text" class="comment-input" placeholder="Write your comment here...">
+     
+        <button class="submit-button">Submit</button>
+    </div>
+    <div style="text-align: center;">
+    <button style="background-color: darkgray; color: white; padding: 15px 30px; border: none; cursor: pointer; font-family: Aldrich, sans-serif; font-size: 20px;" onclick="returnToMainPage()">Return to Main Page</button>
+</div>
+
+<script>
+    function returnToMainPage() {
+        window.location.href = 'mainpage.html';
+        alert('Back to main page');
+    }
+</script>
+
+</body>
+</html>
